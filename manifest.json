@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Web Refresher",
+  "version": "1.0",
+  "description": "Auto-refreshes the page at a set interval.",
+  "permissions": ["scripting", "activeTab"],
+  "background": {
+      "service_worker": "background.js"
+  },
+  "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+          "16": "icons/refresh16.png",
+          "48": "icons/refresh48.png",
+          "128": "icons/refresh128.png"
+      }
+  },
+  "icons": {
+      "16": "icons/refresh16.png",
+      "48": "icons/refresh48.png",
+      "128": "icons/refresh128.png"
+  }
+}
